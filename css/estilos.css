@@ -1,0 +1,67 @@
+.tableBasic{
+    width: 100%;
+    font-size: 1rem;
+}
+.tableBasic, .tableBasic th,.tableBasic td{
+    border: 1px solid black;
+    /* border-collapse: collapse; */
+    border-spacing: .3rem;
+    padding: 5px;
+}
+.tableBasic caption{
+    color: #e63946;
+    font-family: 'Trocchi', serif;  
+    font-size: 45px;
+    line-height: 70px;
+}
+.tableBasic th{
+    color:#f1faee;
+    background-color: #1d3557;
+}
+/*renglones pares*/
+.tableBasic tr:nth-child(even){
+    background-color: white;
+}
+/*renglones impares*/
+.tableBasic tr:nth-child(odd){
+    background-color: #a8dadc;
+}
+a{
+    text-decoration: none;
+
+}
+.possessive > a{
+    display: block;
+    display: flex;
+    justify-content: space-between;
+}
+/* tabla numero dos */
+.tableList{
+    
+    margin-left: 12%;
+    width: 88%;
+}
+.tableList , .tableList td,.tableList > tr{
+    border-collapse: collapse;
+    padding: .4rem;
+}
+.tableList tr:nth-child(odd){
+    background-color: coral;
+}
+/* 
+possessive
+tr:nth-last-child(){
+    background-color: #e63946;
+} 
+
+*/
+
+
+/*
+td{
+    text-align: center;
+}
+th{
+    text-align: left;
+}
+*/
